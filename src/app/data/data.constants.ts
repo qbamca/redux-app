@@ -1,0 +1,43 @@
+import {Block, BoxWall, Color, Shape} from 'mca-redux-domain/src/lib/src/definitions';
+
+export const BOX_WALLS: BoxWall[] = [
+  {shape: Shape.rectangle, size: 1},
+  {shape: Shape.rectangle, size: 2},
+  {shape: Shape.rectangle, size: 3},
+  {shape: Shape.rectangle, size: 4},
+  {shape: Shape.rectangle, size: 5},
+  {shape: Shape.square, size: 1},
+  {shape: Shape.square, size: 2},
+  {shape: Shape.square, size: 3},
+  {shape: Shape.square, size: 4},
+  {shape: Shape.square, size: 5},
+  {shape: Shape.triangle, size: 1},
+  {shape: Shape.triangle, size: 2},
+  {shape: Shape.triangle, size: 3},
+  {shape: Shape.triangle, size: 4},
+  {shape: Shape.triangle, size: 5},
+  {shape: Shape.circle, size: 1},
+  {shape: Shape.circle, size: 2},
+  {shape: Shape.circle, size: 3},
+  {shape: Shape.circle, size: 4},
+  {shape: Shape.circle, size: 5},
+  {shape: Shape.eclipse, size: 1},
+  {shape: Shape.eclipse, size: 2},
+  {shape: Shape.eclipse, size: 3},
+  {shape: Shape.eclipse, size: 4},
+  {shape: Shape.eclipse, size: 5},
+  {shape: Shape.star, size: 1},
+  {shape: Shape.star, size: 2},
+  {shape: Shape.star, size: 3},
+  {shape: Shape.star, size: 4},
+  {shape: Shape.star, size: 5},
+];
+
+export const BLOCKS: Block[] = [
+  {color: Color.black, shape: Shape.rectangle},
+  {color: Color.blue, shape: Shape.square},
+  {color: Color.green, shape: Shape.triangle},
+  {color: Color.pink, shape: Shape.circle},
+  {color: Color.red, shape: Shape.eclipse},
+  {color: Color.white, shape: Shape.star},
+];

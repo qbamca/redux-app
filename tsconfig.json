@@ -15,5 +15,16 @@
       "es2017",
       "dom"
     ]
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.spec.ts",
+    "**/*.mocks.ts",
+    "**/*.http-spec.ts",
+    "**/*.int-spec.ts",
+    "**/*.e2e-spec.ts",
+    "**/*.steps.ts",
+    "**/*.po.ts"
+  ]
 }
